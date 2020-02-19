@@ -16,11 +16,7 @@ h1{
   line-height: 1.6em;
 }
 
-@media only screen and (min-width: 600px max-width: 900px) {
-  p{
-    min-width: 75vw;
-    max-width: 50vw;
-
-  }
-
+@media only screen and class.chapter {
+  min-width: 600px max-width: 75vw
+  min-width: 900px max-width: 50vw
 }
