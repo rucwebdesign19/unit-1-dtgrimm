@@ -1,11 +1,10 @@
-@font-face {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+body{
+  font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
-
-}
-p{
+ }
+html{
   font-size: 1.4em;
-  line-height: 1.3em;
+  line-height: 1.3;
 
 
 }
@@ -13,10 +12,20 @@ p{
 h1{
   font-family: Roboto;
   font-size: 18px;
-  line-height: 1.6em;
+  line-height: 1.6;
+}
+
+body {
+  background-image:
+  url("jane.jpg");
 }
 
 @media only screen and class.chapter {
   min-width: 600px max-width: 75vw
   min-width: 900px max-width: 50vw
+}
+
+@media only screen and class.text {
+ max-width: 75vw
+
 }
