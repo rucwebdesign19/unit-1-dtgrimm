@@ -18,14 +18,73 @@ h1{
 body {
   background-image:
   url("jane.jpg");
+  background-color: black;
 }
 
-@media only screen and class.chapter {
+.photo {
+  max-width: 100%;
+}
+
+.chapter {
+  background-color: beige;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1em;
+  width: 100%;
+  background-color: CadetBlue;
+  -webkit-box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and .chapter {
   min-width: 600px max-width: 75vw
   min-width: 900px max-width: 50vw
 }
 
-@media only screen and class.text {
+@media only screen and .text {
  max-width: 75vw
 
+}
+
+@media only screen and .photo {
+  max-width: 100%
+}
+
+
+
+
+
+article {
+  height: 75vh;
+
+}
+
+h1 {
+
+  font-size: 50px;
+  color: red;
+
+}
+
+
+
+html * {
+
+    box-sizing: border-box;
+}
+
+[search] ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
 }
